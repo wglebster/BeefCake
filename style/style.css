@@ -1,0 +1,50 @@
+html{
+    background-color: #DED9B6;
+    font-size: 10px;
+}
+
+/* Import Fonts */
+@font-face {
+    font-family: "Bebas_Neue";
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf)
+    format("truetype");
+}
+@font-face {
+    font-family: "Cutive_Mono";
+    src: url(../fonts/Cutive_Mono/CutiveMono-Regular.ttf)
+    format("truetype");
+}
+@font-face {
+    font-family: "Gurajada";
+    src: url(../fonts/Gurajada/Gurajada-Regular.ttf) 
+    format("truetype");
+}
+@font-face {
+    font-family: "fredericka-the-great";
+    src: url(../fonts/fredericka-the-great/FrederickatheGreat-Regular.ttf) 
+    format(truetype);
+}
+@font-face {
+    font-family: "Roboto_Condensed_bold";
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf)format(truetype);
+}
+@font-face {
+    font-family: "Roboto_Condensed_italic";
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf)format(truetype);
+}
+@font-face {
+    font-family: "Roboto_Condensed_light";
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf)format(truetype);
+}
+@font-face {
+    font-family: "Roboto_Condensed_regular";
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf)format(truetype);
+}
+
+/* Desktop Styles*/
+
+.main-container{
+    display: flex;
+        width:1024px;
+    margin: 0 auto;
+}
