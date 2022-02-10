@@ -132,6 +132,16 @@ h2{
     font-size: 3.5rem;
     padding-bottom: 1%;
 }
+.current-menu h3 a{
+    text-decoration: none;
+    color: #615816;
+    font-weight: 600;
+}
+.current-menu h3 a:hover{
+    text-decoration: none;
+    color: #615816;
+    font-weight: normal;
+}
 .current-menu img:hover{
     cursor: pointer;
 }
@@ -144,6 +154,7 @@ h2{
     margin: 2% 0;
     object-fit: cover;
 }
+/*  */
 .awards{
     display: flex;
     flex-flow: row;
