@@ -116,12 +116,10 @@ h2{
 .current-menu img:hover{
     cursor: pointer;
 }
-.current-menu a{
-    display: inline-block;
-}
 .current-menu img{
-    width: 100%;
-    height: 400px;
+    display: inline-block;
+    width: 30%;
+    height: 430px;
     margin: 2% 0;
     object-fit: cover;
 }
