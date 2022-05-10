@@ -3,6 +3,7 @@ const modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 const page1 = document.getElementById("myBtn");
+const page2 = document.getElementById("myBtn1");
 
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
