@@ -118,10 +118,12 @@ h2{
 }
 .current-menu a{
     display: inline-block;
-    width: 45%;
+}
+.current-menu img{
+    width: 100%;
     height: 400px;
     margin: 2% 0;
-    object-fit: contain;
+    object-fit: cover;
 }
 /*  */
 .awards{
