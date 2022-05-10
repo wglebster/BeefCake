@@ -116,8 +116,8 @@ h2{
 .current-menu img:hover{
     cursor: pointer;
 }
-.current-menu img{
-    /* display: inline-block; */
+.current-menu a{
+    display: inline-block;
     width: 45%;
     height: 400px;
     margin: 2% 0;
