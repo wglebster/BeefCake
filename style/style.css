@@ -285,7 +285,13 @@ footer img{
     .opening-times{
         text-align: center;
     }
-    .modal-content {
-        width: 100%;
-      }
+    /* #img01, #img02 {
+        width: 80vh;
+        height: 80vh;
+        object-fit: scale-down;
+    } */
+    /* .modal {
+        width: 80%; /* Full width
+        height: 100%;    
+} */
 }
