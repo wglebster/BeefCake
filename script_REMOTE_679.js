@@ -1,4 +1,4 @@
-
+// Get the modal
 const modal1 = document.getElementById("myModal1");
 const modal2 = document.getElementById("myModal2");
 
@@ -30,4 +30,3 @@ span1.onclick = function() {
 span2.onclick = function() { 
     modal2.style.display = "none";
   }
-
