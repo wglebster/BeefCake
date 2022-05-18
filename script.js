@@ -7,7 +7,7 @@ const img1 = document.getElementById("myImg1");
 const modalImg1 = document.getElementById("img01");
 const img2 = document.getElementById("myImg2");
 const modalImg2 = document.getElementById("img02");
-/*  var captionText = document.getElementById("caption"); */
+
 img1.onclick = function(){
   modal1.style.display = "flex";
   modalImg1.src = this.src;
@@ -30,4 +30,3 @@ span1.onclick = function() {
 span2.onclick = function() { 
     modal2.style.display = "none";
   }
-

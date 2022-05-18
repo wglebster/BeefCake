@@ -62,7 +62,6 @@ h2{
     color: #615816;
 }
 .header-container a:hover{
-    /* color: #A79E58; */
     text-decoration: underline;
 }
 .page-hero{
@@ -86,7 +85,6 @@ h2{
 /* When required, the menu section can be hidden. To hide it uncoment the line display: none; */
 .current-menu{
     display: flex;
-    /* display: none; */
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -109,7 +107,6 @@ h2{
     padding-bottom: 1%;
 }
 .current-menu h3 a{
-    /* text-decoration: none; */
     color: #615816;
     letter-spacing: 0.2rem;
 }
@@ -241,7 +238,7 @@ footer img{
 /* End modal popup styles */
 
 
-@media only screen and (max-width:1023px)/*  and (min-width: 320px) */{
+@media only screen and (max-width:1023px){
     .main-container{
         width: 350px;
     }
@@ -288,7 +285,6 @@ footer img{
     #img01, #img02 {
         width: 45vh;
         height: 100vh;
-        /* object-fit: scale-down; */
     }
 
     .close {
@@ -298,7 +294,6 @@ footer img{
         color: #f1f1f1;
         font-size: 40px;
         font-weight: bold;
-        /* transition: 0.3s; */
       }
       .close {
         position: absolute;
