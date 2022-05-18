@@ -183,6 +183,8 @@ footer address{
 
 footer a{
     display: inline-block;
+    text-decoration: none;
+    color: #DED9B6;
 }
 footer img{
     width: 100px;
@@ -228,7 +230,6 @@ footer img{
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
-    transition: 0.3s;
   }
   
   .close:hover,
@@ -285,13 +286,28 @@ footer img{
     .opening-times{
         text-align: center;
     }
-    /* #img01, #img02 {
-        width: 80vh;
-        height: 80vh;
-        object-fit: scale-down;
-    } */
-    /* .modal {
-        width: 80%; /* Full width
-        height: 100%;    
-} */
+    #img01, #img02 {
+        width: 45vh;
+        height: 100vh;
+        /* object-fit: scale-down; */
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        /* transition: 0.3s; */
+      }
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
 }
