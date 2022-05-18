@@ -1,4 +1,4 @@
-
+//save modal div1 and div2 as variables
 const modal1 = document.getElementById("myModal1");
 const modal2 = document.getElementById("myModal2");
 
