@@ -161,10 +161,11 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-between;
     justify-content: space-evenly;
     align-items: center;
-    height: 25rem;
+    height: 22rem;
+    padding-top: 2%;
     background-color: #615816;
     color: #DED9B6;
     font-size: 3rem;
@@ -186,8 +187,18 @@ footer a{
 footer img{
     width: 100px;
     height: 100px;
-    /* margin: 2% 0; */
     object-fit: cover;
+}
+#signature{
+    color: #DED9B6;
+    width: 100%;
+    text-align: right;
+    padding-right: 4%;
+    font-size: 1rem
+}
+#signature a{
+    text-decoration: underline;
+    color: #DED9B6;
 }
 
 /* Modal popup styles */
@@ -281,6 +292,12 @@ footer img{
     }
     .opening-times{
         text-align: center;
+    }
+    #signature{
+        color: #DED9B6;
+        width: 100%;
+        text-align: center;
+        font-size: 0.5rem
     }
     #img01, #img02 {
         width: 45vh;
